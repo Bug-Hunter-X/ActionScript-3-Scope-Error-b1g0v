@@ -1,0 +1,1 @@
+This repository contains an example of a common ActionScript 3 scoping error. The `bug.as` file demonstrates the error, while `bugSolution.as` provides a corrected version.  The error occurs because the variable `myVar` is declared within the scope of the `myFunction` function, but it's accessed outside of this scope in the `trace` statement, which results in a compiler error.
